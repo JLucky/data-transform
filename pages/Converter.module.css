@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin: 20px 0;
+}
+
+.container label {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.container input {
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.inputField {
+    font-size: 1.5em;
+    /* 这将把字体放大1.5倍 */
+    width: calc(1.5 * 100%);
+    /* 这将把输入框宽度放大1.5倍 */
+}
+
+.labelText {
+    font-size: 1.5em;
+}
